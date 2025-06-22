@@ -10,7 +10,7 @@ from astrbot.api import logger
 import astrbot.api.message_components as Comp
 
 # 插件配置
-IMAGE_FOLDER = "/www/wwwroot/guess_images"  # 使用绝对路径
+IMAGE_FOLDER = "/var/lib/docker/overlay2/31c9b245627b42ad7fa45585fbeefca8f7bd81d73457d14d806fceb74fa53529/merged/guess_images"  # 使用绝对路径
 CROP_SIZE_RATIO = 0.05  # 截取比例（原图的5%）
 TIMEOUT = 60  # 游戏超时时间（秒）
 
