@@ -1,32 +1,11 @@
 {
-    "image_dir": {
-        "description": "角色图片目录",
-        "type": "string",
-        "default": "/www/dk_project/dk_app/astrbot/astrbot_nrnR/data/guess_images",
-        "hint": "存放PJSK角色图片的目录路径"
-    },
-    "crop_size": {
-        "description": "裁剪尺寸",
-        "type": "int",
-        "default": 150,
-        "hint": "随机裁剪的正方形边长（像素）"
-    },
-    "max_attempts": {
-        "description": "最大尝试次数",
-        "type": "int",
-        "default": 5,
-        "hint": "用户最多可以猜几次"
-    },
-    "timeout": {
-        "description": "游戏超时时间",
-        "type": "int",
-        "default": 60,
-        "hint": "游戏超时时间（秒）"
-    },
-    "alias_file": {
-        "description": "别名文件",
-        "type": "string",
-        "default": "aliases.json",
-        "hint": "角色别名映射文件"
-    }
+  "image_dir": "pjskct1",
+  "cropped_dir": "pjskct2",
+  "crop_size": 200,
+  "timeout": 60,
+  "alias_map": {
+    "初音未来": ["miku", "初音", "初音ミク", "haku", "m"],
+    "镜音铃": ["rin", "镜音", "镜音リン", "l"],
+    // 其他角色配置...
+  }
 }
